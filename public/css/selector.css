@@ -1,0 +1,94 @@
+/* html {
+  max-width: 720px;
+}
+
+body {
+  background: #fff;
+}
+
+* {
+  color:red;
+}
+
+div > p {
+  color:blueviolet;
+}
+
+.norm  em {
+  color:greenyellow;
+}
+
+ */
+
+.card-dark {
+  background: rgb(228, 225, 221);
+}
+.item {
+  color: green;
+}
+
+.item:first-child {
+  color: blue;
+}
+
+.item:nth-child(odd) {
+  color: brown;
+}
+
+.input-dark {
+  background: rgb(120, 115, 110);
+}
+
+.input-dark[required] {
+  background: rgb(141, 8, 61);
+}
+
+.input-dark[type='number'] {
+  background: rgb(151, 95, 117);
+}
+
+.small-img[alt~='small'] {
+  height: 500px;
+}
+
+button[class|='btn'] {
+  background: rgb(135, 100, 100);
+}
+
+button::first-letter {
+  color: rgb(220, 17, 17);
+}
+
+a[class^='btn'] {
+  background: blueviolet;
+}
+
+a[class*='btn'] {
+  background: rgb(54, 29, 195);
+}
+
+.big-text::first-line {
+  color: red;
+}
+
+.big-text::before,
+.big-text::after {
+  content: '$$$';
+  color: green;
+}
+
+#test:target {
+  color: red;
+}
+
+.link:link {
+  color: red;
+}
+
+.link:hover {
+  color: green;
+}
+
+.card:hover {
+  background: green;
+}

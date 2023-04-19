@@ -1,7 +1,16 @@
-html {
-  max-width: 720px;
+.card p {
+  color: green;
+  /* -webkit-text-fill-color: blue;
+  -webkit-text-stroke: 2px red; */
 }
 
-body {
-  background: #fff;
+p:active,
+P:hover {
+  -webkit-text-fill-color: blue;
+  -webkit-text-stroke: 2px red;
+  direction: rtl;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
 }
