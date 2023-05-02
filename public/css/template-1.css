@@ -154,3 +154,19 @@ h1 {
 .plans_card:nth-child(2) > .card {
   background: red;
 }
+
+.hero_text {
+  background-image: url('/img/placehold.jpg');
+}
+
+.card_block {
+  list-style-type: circle;
+}
+
+.card_deckription_item {
+  display: list-item;
+}
+
+.table tr td {
+  border: 1px solid rgb(65, 36, 36);
+}

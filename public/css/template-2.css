@@ -11,6 +11,9 @@
 .header {
   padding: 24px;
   border-bottom: 1px solid #dee2e6;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -59,6 +62,9 @@
 .footer {
   padding: 24px 0;
   border-top: 1px solid #dee2e6;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer_copyright {
@@ -92,6 +98,11 @@
   background: #343a40;
   border-radius: 24px;
   padding: 80px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .button {
@@ -177,6 +188,9 @@
   padding-bottom: 12px;
   border-bottom: 1px solid #dee2e6;
   margin-bottom: 40px;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .category_button {
@@ -285,4 +299,32 @@
 
 .link_item:hover {
   text-decoration: underline;
+}
+
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  align-items: stretch;
+}
+
+.flex_item {
+  width: 50%;
+}
+
+.flex_item:first-of-type {
+  margin-right: 24px;
+  margin-bottom: 24px;
+  width: calc(50% - 24px);
+}
+
+.flex_item:nth-of-type(2) {
+  margin-bottom: 24px;
+}
+
+.flex_item:nth-of-type(3) {
+  margin-right: 24px;
+  width: calc(50% - 24px);
 }
